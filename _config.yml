@@ -582,7 +582,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
-                var myname = "wangXB"; // 设置您的名字或昵称
+                var myname = "我"; // 设置您的名字或昵称
                 var profile = "skewed95827@163.com";// 设置您的联系邮箱
                 var usage = "payment";// 用途，通常为"payment"
                 var wechat = "wxp://f2f0QpEQlHQy_O4g14mub2-v1Ku40R_AkocQWjdwAqS6vTY";// 微信支付二维码链接
@@ -674,6 +674,7 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-feed # 为站点生成RSS源
   - jekyll-redirect-from # 站点页面重定向
   - jekyll-remote-theme # 使用remote_theme插件实现主题的前后分离，详见<https://github.com/benbalter/jekyll-remote-theme/>
+  - jekyll-vega #图片vege功能
 
 remote_theme: https://github.com/wangxingbin95827/jekyll-theme-blog-latest@v1.0.0 #使用固定版本号以防止主题更新导致站点显示错乱
 
